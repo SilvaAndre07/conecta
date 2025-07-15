@@ -65,10 +65,12 @@
                     </div>
                 </div>
             </div>
+               <div class="btn-voltar">
+            <a href="/" class="btn btn-danger" style="width: 100px;">Voltar</a>
+</div>
         </section>
 
     </main>
-
     <footer>
 
     </footer>
