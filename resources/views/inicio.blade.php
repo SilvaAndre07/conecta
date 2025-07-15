@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Conecta Assaí</title>
+    <title>Conecta Assaí</title>    
     <link rel="icon" href="{{ asset('assets/img/favicon.png') }}" />
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -29,22 +29,22 @@
                 <!--<p class="destaque-titulo">Destaques</p>-->
                 <div class="row text-center">
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
-                            <h5 class="card-title">Programas de Estágio 2025</h5>
+                            <h5 class="card-title">Programas de Estágio</h5>
                             <p class="card-text">Fortaleça sua carreira desde agora participando de programas de estágio.</p>
                             {{-- <a href="{{ route('estagios.formulario') }}" class="btn btn-danger">Encerrado</a> --}}
-                              <a href=/estagios class="btn btn-success">Ver mais</a>
+                              <a href=/estagios class="btn btn-success">Ver Mais</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
-                            <h5 class="card-title">Cursos 2025</h5>
+                            <h5 class="card-title">Cursos</h5>
                             <p class="card-text">Descubra novas possibilidades por meio de cursos que unem conteúdo de qualidade e experiências significativas</p>
                             {{-- <a href="{{ route('cursos') }}" class="btn btn-danger">Encerrado</a> --}}
                             <a href=/cursos class="btn btn-success">Ver Mais</a>

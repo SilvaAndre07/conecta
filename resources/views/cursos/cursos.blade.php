@@ -32,7 +32,7 @@
                         <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
-                            <h5 class="card-title">Curso de Informática</h5>
+                            <h5 class="card-title">Curso De Informática</h5>
                             <p class="card-text">Inscrição Para Participar do Curso de Informatica Gratuito</p>
                             {{-- <a href="{{ route('estagios.formulario') }}" class="btn btn-danger">Encerrado</a> --}}
                             <a href="#" class="btn btn-danger">Em Breve</a>
