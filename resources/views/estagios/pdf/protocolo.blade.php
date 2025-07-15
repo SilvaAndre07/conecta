@@ -9,7 +9,7 @@
     <title>Programa de Estágio</title>
 
     <!-- Páginas CSS -->
-    <link href="{{ asset('scripts/bootstrap/dist/5.3.1/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('assets/scripts/bootstrap/dist/5.3.1/bootstrap.min.css') }}" rel="stylesheet">
 
     <style>
         .page_break { page-break-before: always; }
