@@ -42,7 +42,7 @@
 
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
                         <div class="card w-100">
-                            <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
+                            <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Cursos 2025</h5>
                             <p class="card-text">Descubra novas possibilidades por meio de cursos que unem conteúdo de qualidade e experiências significativas.a</p>
