@@ -45,7 +45,7 @@
                             <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Cursos 2025</h5>
-                            <p class="card-text">Descubra novas possibilidades por meio de cursos que unem conteúdo de qualidade e experiências significativas.</p>
+                            <p class="card-text">Descubra novas possibilidades por meio de cursos que unem conteúdo de qualidade e experiências significativas.a</p>
                             {{-- <a href="{{ route('estagios.formulario') }}" class="btn btn-danger">Encerrado</a> --}}
                             <a href="#" class="btn btn-success">Ver Mais</a>
                             </div>
