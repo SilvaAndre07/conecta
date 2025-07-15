@@ -12,19 +12,6 @@
     <link rel="stylesheet" href="{{ asset('assets/scripts/owlcarousel/assets/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/scripts/owlcarousel/assets/owl.theme.default.min.css') }}">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" />
-    <style>
-        .card-equal {
-            height: 100%;
-            display: flex;
-            flex-direction: column;
-        }
-        .card-equal .card-body {
-            flex: 1 1 auto;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
-    </style>
 </head>
 <body>
     <header>

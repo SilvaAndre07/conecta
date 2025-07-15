@@ -29,7 +29,7 @@
                 <p class="destaque-titulo">Cursos</p>
                 <div class="row text-center">
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Curso de Informática</h5>
@@ -41,7 +41,7 @@
                     </div>
 
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Curso De Administração</h5>
@@ -53,7 +53,7 @@
                     </div>
 
                     <div class="col-sm-3 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Curso Preparatório Pré-Vestibular</h5>
@@ -65,6 +65,9 @@
                     </div>
                 </div>
             </div>
+               <div class="btn-voltar">
+            <a href="/" class="btn btn-danger" style="width: 100px;">Voltar</a>
+</div>
         </section>
 
     </main>
