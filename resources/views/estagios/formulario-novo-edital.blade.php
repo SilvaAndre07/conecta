@@ -856,8 +856,9 @@
                         <hr>
                         <div class="row">
                             <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                                <button class="btn btn-danger me-md-2" type="button" onclick="location.href='https://conecta.assai.pr.gov.br/estagios';">
-                                    <Cancelar </button>
+                                <button class="btn btn-danger me-md-2" type="button" onclick="location.href='/estagios'">
+                                    Voltar
+                                    </button>
                     <button class="btn btn-success me-md-2" id="btSave" type="submit">Registrar</button>
                             </div>
                         </div>
