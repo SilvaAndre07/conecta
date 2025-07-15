@@ -42,3 +42,7 @@ Route::get('/estagio/finishES',[EstagiosController::class,'finishNovoEdital'])->
 Route::get('/estagios', function () {
     return view('estagio');
 });
+
+Route::get('/cursos', function () {
+    return view('cursos.cursos');
+});
