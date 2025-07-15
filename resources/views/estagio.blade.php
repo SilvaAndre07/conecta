@@ -26,7 +26,7 @@
     <main>
         <section class="session-without-bg">
             <div class="container">
-                <p class="destaque-titulo">Estágios</p>
+                <p class="destaque-titulo">Estágios -</p>
                 <div class="row text-center">
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
                         <div class="card w-100">
