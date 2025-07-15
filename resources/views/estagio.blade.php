@@ -12,6 +12,19 @@
     <link rel="stylesheet" href="{{ asset('assets/scripts/owlcarousel/assets/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/scripts/owlcarousel/assets/owl.theme.default.min.css') }}">
     <link href="{{ asset('assets/css/style.css') }}" rel="stylesheet" />
+    <style>
+        .card-equal {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .card-equal .card-body {
+            flex: 1 1 auto;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -29,19 +42,19 @@
                 <p class="destaque-titulo">Estágios</p>
                 <div class="row text-center">
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Programa de Estágio 2025/002 - Ensino Superior</h5>
                             <p class="card-text">Inscrição no Processo Seletivo para Estágios na Administração Municipal - <a href="/arquivos/Edital_Estagio_002-2025.pdf" target="_blank">Edital nº 002/2025</a></p>
-                            {{-- <a href="{{ route('estagios.formulario') }}" class="btn btn-danger">Encerrado</a> --}}
+
                             <a href="{{ route('estagios.formularioNovoEdital') }}" class="btn btn-success">Inscrever-se</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Programa de Estágio 2025 - Ensino Superior</h5>
@@ -53,7 +66,7 @@
                     </div>
 
                     <div class="col-sm-3 mx-auto">
-                        <div class="card w-100">
+                        <div class="card w-100 card-equal">
                             <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
                             <h5 class="card-title">Programa de Estágio 2025 - Ensino Médio</h5>
