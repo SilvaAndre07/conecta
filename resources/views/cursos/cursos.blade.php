@@ -26,38 +26,38 @@
     <main>
         <section class="session-without-bg">
             <div class="container">
-                <p class="destaque-titulo">Estágios -</p>
+                <p class="destaque-titulo">Cursos</p>
                 <div class="row text-center">
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
                         <div class="card w-100">
-                            <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
+                            <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
-                            <h5 class="card-title">Programa de Estágio 2025/002 - Ensino Superior</h5>
-                            <p class="card-text">Inscrição no Processo Seletivo para Estágios na Administração Municipal - <a href="/arquivos/Edital_Estagio_002-2025.pdf" target="_blank">Edital nº 002/2025</a></p>
+                            <h5 class="card-title">Curso de Informática</h5>
+                            <p class="card-text">Inscrição Para Participar do Curso de Informatica Gratuito</p>
                             {{-- <a href="{{ route('estagios.formulario') }}" class="btn btn-danger">Encerrado</a> --}}
-                            <a href="{{ route('estagios.formularioNovoEdital') }}" class="btn btn-success">Inscrever-se</a>
+                            <a href="#" class="btn btn-danger">Em Breve</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3 mb-3 mb-sm-0 mx-auto">
                         <div class="card w-100">
-                            <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
+                            <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
-                            <h5 class="card-title">Programa de Estágio 2025 - Ensino Superior</h5>
-                            <p class="card-text">Inscrição no Processo Seletivo para Estágios na Administração Municipal - <a href="/arquivos/Edital_Processo_Seletivo.pdf" target="_blank">Edital nº 001/2025</a></p>
+                            <h5 class="card-title">Curso De Administração</h5>
+                            <p class="card-text">Inscrição Para Participar Do Curso De Administração Gratuito</p>
                             {{-- <a href="{{ route('estagios.formulario') }}" class="btn btn-danger">Encerrado</a> --}}
-                            <a href="#" class="btn btn-danger">Encerrado</a>
+                            <a href="#" class="btn btn-danger">Em Breve</a>
                             </div>
                         </div>
                     </div>
 
                     <div class="col-sm-3 mx-auto">
                         <div class="card w-100">
-                            <img src="{{ asset('assets/img/programa-estagio.jpg') }}" class="card-img-top" alt="Programa de Estágio">
+                            <img src="{{ asset('assets/img/cursos.png') }}" class="card-img-top" alt="Programa de Estágio">
                             <div class="card-body">
-                            <h5 class="card-title">Programa de Estágio 2025 - Ensino Médio</h5>
-                            <p class="card-text">Inscrição no Processo Seletivo para Estágios na Administração Municipal - <a href="/arquivos/Edital_Processo_Seletivo.pdf" target="_blank">Edital nº 001/2025</a></p>
+                            <h5 class="card-title">Curso Preparatório Pré-Vestibular</h5>
+                            <p class="card-text">Inscrição Para Participar do Curso Preparatório Pré-Vestibular Gratuito</p>
                             {{-- <a href="{{ route('estagios.formularioEM') }}" class="btn btn-danger">Encerrado</a> --}}
                             <a href="#" class="btn btn-danger">Encerrado</a>
                             </div>
