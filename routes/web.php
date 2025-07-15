@@ -20,7 +20,6 @@ use Illuminate\Support\Facades\Route;
 // });
 
 Route::get('/',[EstagiosController::class, 'inicioEstagio'])->name('estagios');
-Route::get('/estagios',[EstagiosController::class, 'inicioEstagio'])->name('estagios');
 //Ensino Superior
 //Route::get('/estagio/formulario',[EstagiosController::class, 'formulario'])->name('estagios.formulario');
 //Route::post('/estagio/formulario',[EstagiosController::class, 'create'])->name('estagios.create');
@@ -40,4 +39,6 @@ Route::get('/estagio/finishES',[EstagiosController::class,'finishNovoEdital'])->
 
 //Route::get('/estagio/cfinish',[EstagiosController::class,'finish'])->name('estagios.finish');
 
-
+Route::get('/estagios', function () {
+    return view('estagio');
+});
